@@ -1,11 +1,11 @@
 import './App.css'
-import Artifact from './artifact-component'
+import ArtifactSelector from './components/ArtifactSelector'
 
 function App() {
   return (
-    <>
-      <Artifact />
-    </>
+    <div className="min-h-screen bg-gray-100 p-4">
+      <ArtifactSelector />
+    </div>
   )
 }
 
